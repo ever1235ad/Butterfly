@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/user/module/AS5600/AS5600_PWM.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user/module/Receiver/Receiver.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user/module/motor/motor.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user/module/motor/motor.h" charset="GBK" />
+  </component>
+</project>
