@@ -26,11 +26,11 @@ typedef struct {
 
 extern WINGS_DATA Wings_Data;
 
-#define KP1  20.0f
+#define KP1  10.0f
 #define KI1  0.00f
 #define KD1  0.01f
 
-#define KP2  20.0f
+#define KP2  10.0f
 #define KI2  0.00f
 #define KD2  0.01f
 

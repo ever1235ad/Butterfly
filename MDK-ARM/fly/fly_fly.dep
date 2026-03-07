@@ -1,7 +1,7 @@
 Dependencies for Project 'fly', Target 'fly': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32g031xx.s)(0x6907703D)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32G031xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g031xx.lst --xref -o fly\startup_stm32g031xx.o --depend fly\startup_stm32g031xx.d)
-F (../Core/Src/main.c)(0x69723656)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\main.o --omf_browse fly\main.crf --depend fly\main.d)
+F (../Core/Src/main.c)(0x69AAEC1C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\main.o --omf_browse fly\main.crf --depend fly\main.d)
 I (../Core/Inc/main.h)(0x692076DB)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
 I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFB)
@@ -43,8 +43,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 I (../Core/Inc/dma.h)(0x68C80777)
 I (../Core/Inc/tim.h)(0x68D2F755)
@@ -95,8 +95,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (../Core/Src/adc.c)(0x6937DD17)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\adc.o --omf_browse fly\adc.crf --depend fly\adc.d)
 I (../Core/Inc/adc.h)(0x68D34E79)
@@ -141,8 +141,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 F (../Core/Src/dma.c)(0x68D34B2A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\dma.o --omf_browse fly\dma.crf --depend fly\dma.d)
 I (../Core/Inc/dma.h)(0x68C80777)
 I (../Core/Inc/main.h)(0x692076DB)
@@ -186,8 +186,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (../Core/Src/tim.c)(0x69537137)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\tim.o --omf_browse fly\tim.crf --depend fly\tim.d)
 I (../Core/Inc/tim.h)(0x68D2F755)
@@ -232,8 +232,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (../Core/Src/usart.c)(0x68D33DFA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\usart.o --omf_browse fly\usart.crf --depend fly\usart.d)
 I (../Core/Inc/usart.h)(0x68D6CA65)
@@ -278,8 +278,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (../Core/Src/stm32g0xx_it.c)(0x68D34B2A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_it.o --omf_browse fly\stm32g0xx_it.crf --depend fly\stm32g0xx_it.d)
 I (../Core/Inc/main.h)(0x692076DB)
@@ -323,8 +323,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 I (../Core/Inc/stm32g0xx_it.h)(0x68D34B2A)
 F (../Core/Src/stm32g0xx_hal_msp.c)(0x68A9CD44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_msp.o --omf_browse fly\stm32g0xx_hal_msp.crf --depend fly\stm32g0xx_hal_msp.d)
@@ -369,8 +369,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_adc.o --omf_browse fly\stm32g0xx_hal_adc.crf --depend fly\stm32g0xx_hal_adc.d)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
@@ -1077,8 +1077,8 @@ I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
-F (..\user\module\motor\motor.c)(0x6953D8C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\motor.o --omf_browse fly\motor.crf --depend fly\motor.d)
-I (..\user\module\motor\motor.h)(0x695276F6)
+F (..\user\module\motor\motor.c)(0x69AAEC83)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\motor.o --omf_browse fly\motor.crf --depend fly\motor.d)
+I (..\user\module\motor\motor.h)(0x69AAE8B2)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../Core/Inc/main.h)(0x692076DB)
@@ -1120,8 +1120,8 @@ I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
 I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (..\user\module\pid\pid.c)(0x694A8E63)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\pid.o --omf_browse fly\pid.crf --depend fly\pid.d)
 I (..\user\module\pid\pid.h)(0x68C2AB7E)
@@ -1165,11 +1165,11 @@ I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
 I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (..\user\module\AS5600\AS5600_PWM.c)(0x6950F644)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\as5600_pwm.o --omf_browse fly\as5600_pwm.crf --depend fly\as5600_pwm.d)
-I (..\user\module\AS5600\AS5600_PWM.h)(0x69915D3C)
+I (..\user\module\AS5600\AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/main.h)(0x692076DB)
 I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
 I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFB)
@@ -1211,8 +1211,8 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 F (..\user\module\elrs\elrs.c)(0x695E82F3)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-IC:\Users\86371\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\elrs.o --omf_browse fly\elrs.crf --depend fly\elrs.d)
 I (..\user\module\elrs\elrs.h)(0x68EBB423)
@@ -1257,7 +1257,7 @@ I (../user/module/AS5600/as5600.h)(0x68D320B3)
 I (../user/struct_typedef.h)(0x68AD931E)
 I (../user/module/pid/pid.h)(0x68C2AB7E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
-I (../user/module/motor/motor.h)(0x695276F6)
-I (../user/module/AS5600/AS5600_PWM.h)(0x69915D3C)
+I (../user/module/motor/motor.h)(0x69AAE8B2)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69AAE6F6)
 I (../Core/Inc/adc.h)(0x68D34E79)
 I (../Core/Inc/usart.h)(0x68D6CA65)

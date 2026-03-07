@@ -22,43 +22,13 @@ Dialog DLL:      TARMCM1.DLL V1.14.4.0
  
 <h2>Project:</h2>
 C:\Users\86371\Desktop\open_souce_butterfly\MDK-ARM\fly.uvprojx
-Project File Date:  12/16/2025
+Project File Date:  03/07/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'fly'
-compiling gpio.c...
-compiling stm32g0xx_hal_msp.c...
-compiling adc.c...
-compiling usart.c...
-compiling stm32g0xx_it.c...
-compiling elrs.c...
-..\user\module\elrs\elrs.c(181): warning:  #223-D: function "memset" declared implicitly
-      memset(elrs_data_temp, 0, sizeof(elrs_data_temp));
-..\user\module\elrs\elrs.c(184): warning:  #1-D: last line of file ends without a newline
-  }
-..\user\module\elrs\elrs.c(66): warning:  #177-D: function "Map"  was declared but never referenced
-  static inline int16_t Map(uint16_t x,
-..\user\module\elrs\elrs.c(120): warning:  #177-D: function "int8_Map_with_median"  was declared but never referenced
-  static inline uint8_t int8_Map_with_median(uint16_t x,
-..\user\module\elrs\elrs.c: 4 warnings, 0 errors
-compiling AS5600_PWM.c...
-compiling pid.c...
-compiling dma.c...
-compiling motor.c...
-compiling tim.c...
-compiling main.c...
-../Core/Src/main.c(65): warning:  #177-D: variable "g_phase16"  was declared but never referenced
-  static uint16_t g_phase16 = 0;
-../Core/Src/main.c(68): warning:  #550-D: variable "g_last_ms"  was set but never used
-  static uint32_t g_last_ms = 0;
-../Core/Src/main.c(119): warning:  #177-D: function "abs16_fast"  was declared but never referenced
-  static inline uint16_t abs16_fast(int16_t x) {
-../Core/Src/main.c: 3 warnings, 0 errors
-linking...
-Program Size: Code=16692 RO-data=420 RW-data=72 ZI-data=2160  
-FromELF: creating hex file...
-"fly\fly.axf" - 0 Error(s), 7 Warning(s).
+After Build - User command #1: fromelf.exe --elf -o  fly.elf C:\Users\86371\Desktop\open_souce_butterfly\MDK-ARM\fly\fly.axf
+"fly\fly.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -81,7 +51,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>

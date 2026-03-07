@@ -56,8 +56,8 @@
 
 // 左右电机的基准点（中位角度//调小翅膀向上）
 //翅膀水平点，调小翅膀往上移动，建议在水平位置+50左右
-int16_t motor_ago_L_midpoint   = (1800 + 50);	//电机0
-int16_t motor_ago_R_midpoint   = (1750 + 0);	//电机2
+int16_t motor_ago_L_midpoint   = (1731 + 50);	//电机0
+int16_t motor_ago_R_midpoint   = (1752 + 0);	//电机2
 int16_t motor_after_L_midpoint = (1800 + 50); //电机1
 int16_t motor_after_R_midpoint = (1800 + 50);	//电机3
 
@@ -309,10 +309,10 @@ int main(void)
 //        }
 if (elrs_data.Mode == 2) 
 {
-    motor_1_pid.Kp = 45.0f;
-    motor_2_pid.Kp = 0.0f;
-    motor_3_pid.Kp = 45.0f;
-    motor_4_pid.Kp = 0.0f;
+    motor_1_pid.Kp = 20.0f;
+    motor_2_pid.Kp = 35.0f;
+    motor_3_pid.Kp = 20.0f;
+    motor_4_pid.Kp = 35.0f;
 
 						//加上了midpoint1(是yaw的绝对值在0-30的映射)，
 					//用来动态调整水平基准角，midpoint是右摇杆y轴范围是-80 -- +80，ago_L_1878 + 50

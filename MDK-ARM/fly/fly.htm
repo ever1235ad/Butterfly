@@ -3,7 +3,7 @@
 <title>Static Call Graph - [fly\fly.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image fly\fly.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Feb 15 13:44:33 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri Mar 06 23:02:28 2026
 <BR><P>
 <H3>Maximum Stack Usage =        208 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1021,7 +1021,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[a7]"></a>Motor_PID_Control</STRONG> (Thumb, 182 bytes, Stack size 24 bytes, motor.o(i.Motor_PID_Control))
+<P><STRONG><a name="[a7]"></a>Motor_PID_Control</STRONG> (Thumb, 184 bytes, Stack size 24 bytes, motor.o(i.Motor_PID_Control))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = Motor_PID_Control &rArr; PID_calc &rArr; __aeabi_fsub &rArr; __aeabi_fadd &rArr; _float_epilogue
 </UL>
 <BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Pwm
@@ -1073,7 +1073,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motor_PID_Control
 </UL>
 
-<P><STRONG><a name="[af]"></a>StarAndGetResult</STRONG> (Thumb, 104 bytes, Stack size 8 bytes, as5600_pwm.o(i.StarAndGetResult))
+<P><STRONG><a name="[af]"></a>StarAndGetResult</STRONG> (Thumb, 98 bytes, Stack size 8 bytes, as5600_pwm.o(i.StarAndGetResult))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = StarAndGetResult &rArr; HAL_ADC_Start_DMA &rArr; HAL_DMA_Start_IT &rArr; DMA_SetConfig
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Stop_DMA
@@ -1191,7 +1191,7 @@ Global Symbols
 
 <P><STRONG><a name="[cf]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
-<P><STRONG><a name="[22]"></a>main</STRONG> (Thumb, 978 bytes, Stack size 48 bytes, main.o(i.main))
+<P><STRONG><a name="[22]"></a>main</STRONG> (Thumb, 982 bytes, Stack size 48 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = main &rArr; MX_TIM3_Init &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_RCCEx_PeriphCLKConfig
 </UL>
 <BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StarAndGetResult

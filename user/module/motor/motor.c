@@ -51,12 +51,14 @@ void Motor_PID_Control(void)
     Wings_Data.Wings_motor[3].Target_Speed=motor_4_set_pwm=-PID_calc(&motor_4_pid, Wings_Data.Wings_motor[3].Corrective_Angle , Wings_Data.Wings_motor[3].Target_Angle );
 
 
-//这个函数的电机对应（3，0，1，2）
+//这个函数的电机对应（1，0，3，2）
 //	Set_Pwm(0,-(Wings_Data.Wings_motor[0].Target_Speed),0,0);
-//		Set_Pwm(0,0,Wings_Data.Wings_motor[1].Target_Speed,0);
-//	Set_Pwm(0,0,0,Wings_Data.Wings_motor[2].Target_Speed);
-//		Set_Pwm(Wings_Data.Wings_motor[3].Target_Speed,0,0,0);
-		Set_Pwm(Wings_Data.Wings_motor[3].Target_Speed,-(Wings_Data.Wings_motor[0].Target_Speed),Wings_Data.Wings_motor[1].Target_Speed,Wings_Data.Wings_motor[2].Target_Speed);
+//		Set_Pwm(0,0,(Wings_Data.Wings_motor[3].Target_Speed),0);
+//	Set_Pwm(0,0,0,-Wings_Data.Wings_motor[2].Target_Speed);
+//		Set_Pwm(Wings_Data.Wings_motor[1].Target_Speed,0,0,0);
+		Set_Pwm(Wings_Data.Wings_motor[1].Target_Speed,-(Wings_Data.Wings_motor[0].Target_Speed),Wings_Data.Wings_motor[3].Target_Speed,-Wings_Data.Wings_motor[2].Target_Speed);
+//			Set_Pwm(Wings_Data.Wings_motor[1].Target_Speed,0,Wings_Data.Wings_motor[3].Target_Speed,0);
+
 }
 
 
